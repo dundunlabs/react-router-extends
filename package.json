@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "description": "Navigating in react-router by \"id\" instead of \"path\"",
   "type": "module",
-  "source": "src/index.ts",
-  "main": "dist/index.cjs",
+  "source": "src/index.tsx",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
   "exports": {
+    "default": "./dist/index.modern.js",
     "require": "./dist/index.cjs",
-    "default": "./dist/idnex.modern.js",
     "types": "./dist/index.d.ts"
   },
   "files": [
