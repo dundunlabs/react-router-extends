@@ -1,0 +1,52 @@
+{
+  "name": "react-router-extends",
+  "version": "0.0.0",
+  "description": "Navigating in react-router by \"id\" instead of \"path\"",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/idnex.modern.js",
+    "types": "./dist/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dundunlabs/react-router-extends.git"
+  },
+  "keywords": [
+    "react-router"
+  ],
+  "author": "dung28-td",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dundunlabs/react-router-extends/issues"
+  },
+  "homepage": "https://github.com/dundunlabs/react-router-extends#readme",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.3",
+    "@types/react": "^18.2.20",
+    "jest": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.2",
+    "microbundle": "^0.15.1",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.15.0"
+  }
+}
