@@ -1,6 +1,6 @@
 {
   "name": "react-router-extends",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Navigating in react-router by \"id\" instead of \"path\"",
   "type": "module",
   "source": "src/index.tsx",
